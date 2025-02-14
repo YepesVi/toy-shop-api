@@ -11,6 +11,7 @@ export class ProductoService {
     return this.productoRepository.create(data);
   }
 
+  
   async findAll() {
     return this.productoRepository.findAll();
   }
